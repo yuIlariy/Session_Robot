@@ -43,7 +43,7 @@ async def broadcast_command(client, message):
             try:
                 user_id = int(user_id)
                 await client.send_message(
-                    user_id, f"Broadcast message By @xspes: {broadcast_text}"
+                    user_id, f"Broadcast message By @OtherBs: {broadcast_text}"
                 )
                 delivered_count += 1
             except ValueError:
