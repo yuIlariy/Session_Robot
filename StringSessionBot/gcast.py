@@ -15,7 +15,7 @@ def filter(cmd: str):
 
 
 # Owner id
-owner_id = 6174058850
+owner_id = 6318135266
 
 
 # Start Message
@@ -43,7 +43,7 @@ async def broadcast_command(client, message):
             try:
                 user_id = int(user_id)
                 await client.send_message(
-                    user_id, f"Broadcast message By @TheTeamAlexa: {broadcast_text}"
+                    user_id, f"Broadcast message By @xspes: {broadcast_text}"
                 )
                 delivered_count += 1
             except ValueError:
